@@ -73,8 +73,19 @@ print("hello world".split(","))
 # addition
 # subtraction
 
+# + - / *
+#power of **
+# floor division // 10//3 = 3
+#modulo % 10%3 = 1 
 
-8 + (5 * 2) - 3**2
+length = int(input("enter the length of the rectangle: ")) 
+width = int(input("enter the width of rectangle: "))
+
+perimeter = 2 * (length + width)
+
+print("perimeter: ", perimeter)
+
+
 
 
 
